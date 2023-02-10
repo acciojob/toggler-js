@@ -1,10 +1,20 @@
-# Favorite Holiday 
+# Toggler
 
-### Create a webpage that describes your favorite holiday destination. The webpage should include the following elements:
+### Create a webpage that provides user with a toggler to choose the project requirement. The webpage should include the following elements:
 
-- A heading (h1) with the name of the holiday destination
-- A paragraph that provides a brief overview of the destination
-- A line break between the heading and the paragraph
-- An ordered list that lists the top 5 attractions in the destination
-- An unordered list that lists the must-try foods in the destination
-- Text within the ordered and unordered lists should be bold (strong or b) and/or italicized (em or i) to emphasize important information.
+- A heading (h2) with the content "How do you want your project to be"
+- Three input checkboxes under the div with class `toggle-container`. Each checkbox should have ids as `good`, `cheap`, `fast` and a common class `toggle`.
+- There should be a span within the div of each toggler with content as `good`, `cheap`, `fast` respectively.
+- When the user click on any of the checkbox then the checkbox should change it's color.
+- At a time at max only two checkboxes can be clicked.
+- Suppose a user has already clicked on two checkboxes and now if he click on any other checkbox then one of the previous check box become unclicked.
+
+
+The webpage should look like this:
+
+![image](https://user-images.githubusercontent.com/78348500/218010138-8997b83d-8931-4f99-b549-a8a39187b2c1.png)
+
+Now in the above image if we click on fast button then one of the checkboxes from good and cheap gets uncliked.
+
+![image](https://user-images.githubusercontent.com/78348500/218010272-5d2ba995-8c50-40b3-9093-5c545cd708b0.png)
+
